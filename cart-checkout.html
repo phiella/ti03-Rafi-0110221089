@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<head>
+  <style>
+    .table tbody > tr > td {
+      font-size: 0.875em;
+      background: #f5f5f5;
+      border-top: 10px solid #fff;
+      vertical-align: middle;
+      padding: 12px 8px;
+    }
+    .table thead > tr > th span {
+      border-bottom: 2px solid #c2c2c2;
+      display: inline-block;
+      padding: 0 5px;
+      padding-bottom: 5px;
+      font-weight: normal;
+    }
+  </style>
+</head>
+<body style="margin: top 20px; background: #fff">
+  <div>
+    <span class="title">SHOPPING CART</span>
+  </div>
+  <div>
+    <div>
+      <table class="table">
+        <thead>
+          <tr>
+            <td>Image</td>
+            <td>Product Name</td>
+            <td>Variant</td>
+            <td>Color</td>
+            <td>Quantity</td>
+            <td>Unit Price</td>
+            <td>Sub Total</td>
+            <td>Remove</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <a href="#">
+                <img
+                  src="/photos/1.jpg"
+                  alt="barang1"
+                  title=""
+                  width="47"
+                  height="47"
+                />
+              </a>
+            </td>
+            <td><a href="#">T-Shirt</a></td>
+            <td>
+              <select name="">
+                <option value="" selected="selected">S</option>
+                <option value="">M</option>
+                <option value="">L</option>
+                <option value="">XL</option>
+              </select>
+            </td>
+            <td>
+              <select name="">
+                <option value="">Red</option>
+                <option value="">Tosque</option>
+                <option value="" selected="selected">Mocca</option>
+                <option value="">Green</option>
+              </select>
+            </td>
+            <td>
+              <div>
+                <span>
+                  <button type="button" style="display: inline-block">-</button>
+                </span>
+                <span style="display: inline-block"></span>
+                <input
+                  type="text"
+                  name=""
+                  value="1"
+                  style="display: inline-block; width: 15px; text-align: center"
+                />
+                <span style="display: inline-block"></span>
+                <span>
+                  <button type="button" style="display: inline-block">+</button>
+                </span>
+              </div>
+            </td>
+            <td class="harga">$ 23.21</td>
+            <td>$ 23.21</td>
+            <td>
+              <a href="#" class="remove_cart" data-original-title="remove">x</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="#">
+                <img
+                  src="photos/2.jpg"
+                  alt="barang2"
+                  title=""
+                  width="47"
+                  height="47"
+                />
+              </a>
+            </td>
+            <td><a href="#">Hoodie Jacket</a></td>
+            <td>
+              <select name="">
+                <option value="">S</option>
+                <option value="" selected="selected">M</option>
+                <option value="">L</option>
+              </select>
+            </td>
+            <td>
+              <select name="">
+                <option value="" selected="selected">Red</option>
+                <option value="">Blue</option>
+                <option value="">Black</option>
+                <option value="">White</option>
+              </select>
+            </td>
+            <td>
+              <div>
+                <span>
+                  <button type="button">-</button>
+                </span>
+                <span style="display: inline-block"></span>
+                <input
+                  type="text"
+                  name=""
+                  value="2"
+                  style="display: inline-block; width: 15px; text-align: center"
+                />
+                <span style="display: inline-block"></span>
+                <span>
+                  <button type="button" style="display: inline-block">+</button>
+                </span>
+              </div>
+            </td>
+            <td class="harga">$ 20.63</td>
+            <td>$ 41.26</td>
+            <td>
+              <a href="#" class="remove_cart" data-original-title="remove">x</a>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <a href="#">
+                <img
+                  src="photos/3.jpg"
+                  alt="barang3"
+                  title=""
+                  width="47"
+                  height="47"
+                />
+              </a>
+            </td>
+            <td><a href="#">Android Phone 7x</a></td>
+            <td>
+              <select name="">
+                <option value="">3/32</option>
+                <option value="" selected="selected">4/64</option>
+                <option value="">4/128</option>
+                <option value="">6/128</option>
+              </select>
+            </td>
+            <td>
+              <select name="">
+                <option value="" selected="selected">Crystal Purple</option>
+                <option value="">Crystal Blue</option>
+                <option value="">Midnight Black</option>
+                <option value="">Turqoise</option>
+              </select>
+            </td>
+            <td>
+              <div>
+                <span>
+                  <button type="button">-</button>
+                </span>
+                <span style="display: inline-block"></span>
+                <input
+                  type="text"
+                  name=""
+                  value="1"
+                  style="display: inline-block; width: 15px; text-align: center"
+                />
+                <span style="display: inline-block"></span>
+                <span>
+                  <button type="button" style="display: inline-block">+</button>
+                </span>
+              </div>
+            </td>
+            <td class="harga">$ 231.40</td>
+            <td>$ 231.40</td>
+            <td>
+              <a href="#" class="remove_cart" data-original-title="remove">x</a>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="6" align="right">Total</td>
+            <td class="total" colspan="2"><b>$ 295.87</b></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div>
+      <button type="button">Continue Shopping</button>
+      <button type="button">Update Cart</button>
+      <button type="button">Checkout</button>
+    </div>
+  </div>
+</body>
